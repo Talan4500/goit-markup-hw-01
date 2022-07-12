@@ -73,6 +73,12 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    color: var(--bg-color);
+    background-color: var(--active-color);
+}
 
 
 .section2-main-text {
