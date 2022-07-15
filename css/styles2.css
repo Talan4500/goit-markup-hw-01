@@ -79,7 +79,9 @@
     color: var(--bg-color);
     background-color: var(--active-color);
 }
-
+.button .activ {
+    background-color: #f5f4fa;
+}
 
 .section2-main-text {
     font-family: 'Roboto';

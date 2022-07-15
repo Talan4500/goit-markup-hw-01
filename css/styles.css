@@ -14,7 +14,12 @@
     --black-color: #000000;
     --button-bg-color: #f5f4fa;
     --footer-address-color: rgba(255, 255, 255, 0.6);
-  }
+}
+/* Body */
+.body {
+    font-family: 'Roboto';
+    color: var(--bg-color);
+}
 
 /* Header */
 .logo {
@@ -62,8 +67,8 @@
 .main {
 
 }
-/* Section1 */
-.section1 {
+/* Hero */
+.hero-text {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -73,9 +78,11 @@
     text-transform: uppercase;
     color: var(--bg-color);
     font-family: 'Roboto';
+}
+.hero {
     background: var(--secondary-bg-color);
 }
-.section1-button {
+.hero-button {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -88,8 +95,8 @@
     font-family: 'Roboto';
     background-color: var(--active-color);
 }
-/* Section2 */
-.section2-list {
+/* About */
+.about-title {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -99,7 +106,7 @@
     color:var(--primary-text-color);
     font-family: 'Roboto'; 
 }
-.section2-item {
+.about-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -108,11 +115,12 @@
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);    
 }
-/* Section2 */
-.section4 {
+/* Work */
+.work {
     background: var(--button-bg-color);
 }
-.section3-title {
+/* Team */
+.section-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -122,18 +130,7 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-/* Section4 */
-.section4-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    font-family: 'Roboto';
-}
-.section4-names {
+.team-names {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -143,7 +140,7 @@
     color: var(--primary-text-color);
     font-family: 'Roboto';
 }
-.section4-employers {
+.team-position {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
