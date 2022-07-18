@@ -14,7 +14,10 @@
     --black-color: #000000;
     --button-bg-color: #f5f4fa;
     --footer-address-color: rgba(255, 255, 255, 0.6);
-  }
+}
+.body {
+
+}
 
 /* Header */
 .logo {
@@ -80,7 +83,7 @@
     background-color: var(--active-color);
 }
 .button .activ {
-    background-color: #f5f4fa;
+    background-color: #ffffff;
 }
 
 .section2-main-text {
