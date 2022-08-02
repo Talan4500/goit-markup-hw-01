@@ -279,7 +279,10 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition-property: visibility, opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -572,6 +575,8 @@ a {
 }
 .product-link{
   transition-property: transform, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-link:hover,
 .product-link:focus {
