@@ -304,7 +304,7 @@ a {
   padding: 40px;
 
   width: 528px;
-  height: 573px;
+  height: 581px;
 
   background-color: var(--bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -363,7 +363,7 @@ a {
   color: var(--primary-text-color);
 }
 .modal-form-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .modal-form-field-message {
