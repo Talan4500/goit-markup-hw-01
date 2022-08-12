@@ -363,9 +363,11 @@ a {
   color: var(--primary-text-color);
 }
 .modal-form-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-
+.modal-form-field2 {
+  margin-bottom: 20px; 
+}
 .modal-form-field-message {
   display: block;
   margin-bottom: 20px;
