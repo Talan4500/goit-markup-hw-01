@@ -20,28 +20,28 @@
       <nav class="nav">
         <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
         <ul class="site-nav">
-          <li class="nav-item">
-            <a href="./index.html" class="link">Студія</a>
+          <li class="site-nav__item">
+            <a href="./index.html" class="site-nav__link">Студія</a>
           </li>
-          <li class="nav-item">
-            <a href="./portfolio.html" class="link current">Портфоліо</a>
+          <li class="site-nav__item">
+            <a href="./portfolio.html" class="site-nav__link current">Портфоліо</a>
           </li>
-          <li class="nav-item">
-            <a href="" class="link">Контакти</a>
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">Контакти</a>
           </li>
         </ul>
       </nav>
       <ul class="nav-contacts">
-        <li class="nav-contacts-item">
-          <a href="mailto:info@devstudio.com" class="nav-contacts-link">
-            <svg class="nav-contacts-icon envelope" width="16px" height="12px">
+        <li class="nav-contacts__item">
+          <a href="mailto:info@devstudio.com" class="nav-contacts__link">
+            <svg class="nav-contacts__icon" width="16px" height="12px">
               <use href="./images/icon/symbol-defs.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="nav-contacts-item">
-          <a href="tel:+380961111111" class="nav-contacts-link">
-            <svg class="nav-contacts-icon mobile" width="10px" height="16px">
+        <li class="nav-contacts__item">
+          <a href="tel:+380961111111" class="nav-contacts__link">
+            <svg class="nav-contacts__icon" width="10px" height="16px">
               <use href="./images/icon/symbol-defs.svg#icon-mobile"></use>
             </svg>
             +38 096 111 11 11</a>
@@ -53,7 +53,7 @@
   <main>
     <section class="section">
       <div class="container">
-        <h1 class="work hidden">Примеры работ</h1>
+        <h1 class="vissualy-hidden">Приклади робіт</h1>
         <ul class="menu">
           <li><button type="button" class="button current">Все</button></li>
           <li><button type="button" class="button">Веб-сайти</button></li>
@@ -84,9 +84,9 @@
                   Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                   приватну особу.
                 </p>
-                <img src="./images/portfolio/img2.jpg" width="370" height="294"
-                  alt="Постер New Orlean vs Golden Star" />
+                <img src="./images/portfolio/img2.jpg" width="370" height="294" alt="Постер New Orlean vs Golden Star" />
               </div>
+
               <h2 class="product-name">Постер New Orlean vs Golden Star</h2>
               <p class="product-description">Дизайн</p>
             </a>
@@ -101,10 +101,12 @@
                 </p>
                 <img src="./images/portfolio/img3.jpg" width="370" height="294" alt="Ресторан Seafood" />
               </div>
+
               <h2 class="product-name">Ресторан Seafood</h2>
               <p class="product-description">Додаток</p>
             </a>
           </li>
+
           <li class="product-item">
             <a href="" class="product-link">
               <div class="product-wrapper">
@@ -115,10 +117,12 @@
                 </p>
                 <img src="./images/portfolio/img4.jpg" width="370" height="294" alt="Проект Prime" />
               </div>
+
               <h2 class="product-name">Проєкт Prime</h2>
               <p class="product-description">Маркетинг</p>
             </a>
           </li>
+
           <li class="product-item">
             <a href="" class="product-link">
               <div class="product-wrapper">
@@ -129,6 +133,7 @@
                 </p>
                 <img src="./images/portfolio/img5.jpg" width="370" height="294" alt="Проект Boxes" />
               </div>
+
               <h2 class="product-name">Проєкт Boxes</h2>
               <p class="product-description">Додаток</p>
             </a>
@@ -144,8 +149,9 @@
                 </p>
                 <img src="./images/portfolio/img6.jpg" width="370" height="294" alt="Inspiration has no Borders" />
               </div>
-              <h2 class="product-name">Видання Limited Edition</h2>
-              <p class="product-description">Дизайн</p>
+
+              <h2 class="product-name">Inspiration has no Borders</h2>
+              <p class="product-description">Веб-сайт</p>
             </a>
           </li>
 
@@ -160,7 +166,7 @@
                 <img src="./images/portfolio/img7.jpg" width="370" height="294" alt="Издание Limited Edition" />
               </div>
 
-              <h2 class="product-name">Издание Limited Edition</h2>
+              <h2 class="product-name">Видання Limited Edition</h2>
               <p class="product-description">Дизайн</p>
             </a>
           </li>
@@ -176,7 +182,7 @@
                 <img src="./images/portfolio/img8.jpg" width="370" height="294" alt="Проект LAB" />
               </div>
 
-              <h2 class="product-name">Проект LAB</h2>
+              <h2 class="product-name">Проєкт LAB</h2>
               <p class="product-description">Маркетинг</p>
             </a>
           </li>
@@ -252,6 +258,18 @@
           </li>
         </ul>
       </div>
+      <form class="footer-subscribe">
+        <p class="footer-form-desc">Підпишіться на розсилку</p>
+        <div class="footer-form">
+          <input type="email" name="user-email" class="footer-form-input" placeholder="E-mail" />
+          <button type="submit" class="footer-form-submit">
+            Підписатися
+            <svg class="footer-form-input-icon">
+              <use href="./images/icon/symbol-defs.svg#icon-send" width="24" height="24"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
     </div>
   </footer>
 </body>
